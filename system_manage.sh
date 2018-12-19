@@ -35,7 +35,7 @@ do
 	u)
 		uptime
 		;;
-	# 如果是 exit 那么会退出程 
+	# 如果是 exit 那么会退出脚本
 	q)
 		break
 		;;
