@@ -14,7 +14,7 @@ do
 	|    q. exit 	             |
 	+----------------------------+
 	EOF
-	echo -n "input you choice : "
+	echo -en "\033[32minput you choice : \033[0m"
 	read num
 	case $num in
 		1) ssh air@$centos
