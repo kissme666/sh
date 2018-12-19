@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 centos=192.168.199.157
 ubuntu_server=192.168.199.77
-ubuntu_desktop=192.168.199.x
+ubuntu_desktop=192.168.199.204
 clear
 while : 
 do
