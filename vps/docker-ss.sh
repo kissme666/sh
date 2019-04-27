@@ -7,8 +7,8 @@
 wget https://raw.githubusercontent.com/kissme666/sh/master/vps/init-docker.sh
 wget https://raw.githubusercontent.com/kissme666/sh/master/vps/docker-compose.yaml
 
-if [ -x init-docker.sh ] && [ -f docker-compose.yaml ]; then
-    ./init-docker.sh
+if [ -f init-docker.sh ] && [ -f docker-compose.yaml ]; then
+    bash init-docker.sh
 
 else
     echo "File not found..."
