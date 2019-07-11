@@ -1,8 +1,0 @@
-shadowsocks:
-  image: shadowsocks/shadowsocks-libev
-  ports:
-    - "19388:8388"
-  environment:
-    - METHOD=aes-256-gcm
-    - PASSWORD=virus007!
-  restart: always
