@@ -6,7 +6,8 @@
 
 # 设置wps 缺失字体
 set_dep_fonts() {
-	cp * /usr/share/fonts \
+	tar -axvf wps_dep_fonts.tar.gz -C ./ \
+	&& cp * /usr/share/fonts \
 	&& mkfontscale \
 	&& mkfontdir \
 	&& fc-cache
